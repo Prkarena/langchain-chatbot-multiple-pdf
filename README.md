@@ -24,9 +24,9 @@ The purpose of this project is to create a chatbot that can interact with users 
 
 ![QueryPDF](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/QueryPDF.png?raw=true)
 
-![ChatBot WorkFlow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/ChatBot WorkFlow.webp?raw=true)
+![ChatBot WorkFlow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/chat-bot-workflow.png?raw=true)
 
-![QueryPDF Flow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/QueryPDF Flow.webp?raw=true)
+![QueryPDF Flow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/Query-PDF-Flow.png?raw=true)
 
 
 ## Installation
