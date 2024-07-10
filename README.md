@@ -22,11 +22,11 @@ The purpose of this project is to create a chatbot that can interact with users 
 
 ## Sample Output
 
-![QueryPDF](https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF/blob/master/QueryPDF.png?raw=true)
+![QueryPDF](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/QueryPDF.png?raw=true)
 
-![ChatBot WorkFlow](https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF/blob/master/ChatBot WorkFlow.webp?raw=true)
+![ChatBot WorkFlow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/ChatBot WorkFlow.webp?raw=true)
 
-![QueryPDF Flow](https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF/blob/master/QueryPDF Flow.webp?raw=true)
+![QueryPDF Flow](https://github.com/Prkarena/langchain-chatbot-multiple-pdf/raw/development/QueryPDF Flow.webp?raw=true)
 
 
 ## Installation
@@ -36,7 +36,7 @@ To install and run the Langchain Chatbot, follow these steps:
 Clone the repository 
 
 ```
-git clone <repo-url>
+git clone https://github.com/Prkarena/langchain-chatbot-multiple-pdf.git
 ```
 
 Add your OpenAI Key by creating a .env file in the folder and add the following within it:
@@ -44,6 +44,7 @@ Add your OpenAI Key by creating a .env file in the folder and add the following 
 ```
 OPENAI_API_KEY=
 OPENAI_MODEL_NAME=gpt-3.5-turbo
+OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-small
 ```
 
 Create a Virtual Environment
@@ -72,6 +73,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Refrence Blog
-Check out my detailed blog on this project here: 
 
