@@ -83,14 +83,14 @@ def display_chat_history():
         for i in range(0, len(reversed_history), 2):
             # Combine user and bot messages into a dictionary
             chat_pair = {
-                "HumanMessage": reversed_history[i].content,
-                "AIMessage": reversed_history[i + 1].content
+                "AIMessage": reversed_history[i].content,
+                "HumanMessage": reversed_history[i + 1].content
             }
             formatted_history.append(chat_pair)
 
         for i, message in enumerate(formatted_history):
-            st.write(bot_template.replace("{{MSG}}", message['AIMessage']), unsafe_allow_html=True)
             st.write(user_template.replace("{{MSG}}", message['HumanMessage']), unsafe_allow_html=True)
+            st.write(bot_template.replace("{{MSG}}", message['AIMessage']), unsafe_allow_html=True)
   
 def main():
     st.set_page_config(page_title='Chat with Your own PDFs', page_icon=':books:')
